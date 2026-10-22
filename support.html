@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Read Along</title>
+<meta name="description" content="Install Read Along, learn the shortcuts, and fix the usual read-aloud problems.">
+<link rel="canonical" href="https://nayanbhut.github.io/read-along-site/support.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Support — Read Along">
+<meta property="og:description" content="Install Read Along, learn the shortcuts, and fix the usual read-aloud problems.">
+<meta property="og:url" content="https://nayanbhut.github.io/read-along-site/support.html">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f14" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/icon-128.png">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Read Along home">
+      <img src="assets/icon-128.png" width="30" height="30" alt="">
+      Read Along
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav-links" id="site-nav" aria-label="Primary">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#screenshots">Screenshots</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="nav-cta" href="index.html#availability">Coming soon</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container page-hero">
+    <p class="kicker">Help</p>
+    <h1>Support</h1>
+    <p class="lead">Install, shortcuts, and the odd page that won’t read. Most questions are answered below.</p>
+  </div>
+
+  <div class="container">
+    <article class="prose">
+      <div class="note"><strong>Read Along is in review at the Chrome Web Store.</strong> The install link will appear here once the listing is approved. Reviews usually take a few business days.</div>
+
+      <h2 id="install">Install</h2>
+      <p>When the listing is live:</p>
+      <ol>
+        <li>Open the Read Along page on the Chrome Web Store.</li>
+        <li>Click <strong>Add to Chrome</strong>. Brave uses the same button and the same store.</li>
+        <li>Confirm the permissions prompt, then pin the icon from the extensions menu so the toolbar button is easy to find.</li>
+      </ol>
+      <p>Read Along asks for access to the pages you read. That access is what lets it find the article text, paint the spoken word, and scroll the page. It does not modify the page or send text anywhere.</p>
+
+      <h2 id="shortcuts">Keyboard shortcuts</h2>
+      <p>On a Mac, <kbd>⌥</kbd> is the Option key. On Windows and Linux, use <kbd>Alt</kbd> instead.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Action</th><th>Mac</th><th>Windows / Linux</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Read / pause</td><td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>P</kbd></td><td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>P</kbd></td></tr>
+            <tr><td>Stop</td><td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>X</kbd></td><td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>X</kbd></td></tr>
+            <tr><td>Next sentence</td><td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>.</kbd></td><td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>.</kbd></td></tr>
+            <tr><td>Previous sentence</td><td><kbd>⌥</kbd><kbd>⇧</kbd><kbd>,</kbd></td><td><kbd>Alt</kbd><kbd>Shift</kbd><kbd>,</kbd></td></tr>
+            <tr><td>Start at a paragraph</td><td><kbd>⌥</kbd>-click</td><td><kbd>Alt</kbd>-click</td></tr>
+            <tr><td>Read a selection</td><td colspan="2">Select text, then click <strong>Read selection</strong></td></tr>
+            <tr><td>Read from here</td><td colspan="2">Right-click → <strong>Read from here</strong></td></tr>
+            <tr><td>Toggle auto-scroll</td><td colspan="2"><strong>Scroll along</strong> switch in the playback bar</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>If a shortcut clashes with another app or extension, change it at <code>brave://extensions/shortcuts</code> (or <code>chrome://extensions/shortcuts</code>).</p>
+
+      <h2 id="troubleshooting">Troubleshooting</h2>
+      <div class="faq">
+        <details>
+          <summary>Nothing happens when I press the shortcut</summary>
+          <p>First check that the page is a normal web page. Browser pages (<code>brave://</code>, <code>chrome://</code>, <code>edge://</code>), the built-in PDF viewer, and pages that draw text into a canvas — including Google Docs — cannot be read.</p>
+          <p>If the page is normal, make sure Read Along is enabled in the extensions menu, then reload the page. Another app may also be using the same shortcut; change it at the shortcuts page linked above.</p>
+        </details>
+        <details>
+          <summary>There is no sound</summary>
+          <p>Check the system volume and output device first. Then open the voice menu in the playback bar and pick a different voice. Some system voices are listed but not actually downloaded; install or download the voice in your operating system’s speech settings, then reload the page.</p>
+        </details>
+        <details>
+          <summary>It reads in the wrong language or voice</summary>
+          <p><strong>Auto</strong> uses the page’s detected language and picks a matching installed voice. If the page is tagged incorrectly, pick a voice manually from the bar. For a language with no installed voice, add one in your system settings first.</p>
+        </details>
+        <details>
+          <summary>The highlight is missing</summary>
+          <p>Highlighting uses the CSS Custom Highlight API, which is available in current Brave, Chrome, and Edge. If the highlight is missing on one particular site, the page may use shadow DOM or draw its text unusually. Try a regular article to confirm the extension is working, then send the URL so it can be investigated.</p>
+        </details>
+        <details>
+          <summary>The page doesn’t scroll along</summary>
+          <p>Auto-scroll only moves a page that actually has somewhere to scroll. If the whole article fits on screen, there is nothing to do. If you scroll manually, auto-scroll pauses for a few seconds instead of fighting you. Check the <strong>Scroll along</strong> switch in the bar, and make sure the reading pane — not just the outer window — is the thing that scrolls.</p>
+        </details>
+        <details>
+          <summary>It starts in the wrong place</summary>
+          <p>Read Along prefers the main article and ignores navigation, sidebars, and footers. On a cluttered page, start exactly where you want with <kbd>⌥</kbd>-click, a selection, or <strong>Read from here</strong> in the right-click menu.</p>
+        </details>
+        <details>
+          <summary>My settings reset after installing the store version</summary>
+          <p>If you previously used an unpacked development build, the store version has a different extension ID, so preferences start fresh once. Set your speed and voice again and they will be remembered.</p>
+        </details>
+      </div>
+
+      <h2 id="limits">Known limits</h2>
+      <ul>
+        <li><strong>Canvas text.</strong> Google Docs and some PDF viewers draw text into a canvas, so there are no text nodes to read.</li>
+        <li><strong>Cross-origin iframes.</strong> Text inside an embedded frame from another site is not read.</li>
+        <li><strong>Browser pages and the PDF viewer.</strong> Internal pages and the built-in PDF viewer are off limits to extensions.</li>
+        <li><strong>Very long pages.</strong> They are read as one continuous stream; per-paragraph skipping is not available yet.</li>
+        <li><strong>Protected content.</strong> Pages that deliberately block copying or speech may not work.</li>
+      </ul>
+
+      <h2 id="contact">Contact</h2>
+      <p>Still stuck? Email <a href="mailto:nayanbhut989@gmail.com">nayanbhut989@gmail.com</a> with:</p>
+      <ul>
+        <li>your browser and version (for example, Brave 1.xx on macOS 15),</li>
+        <li>the page URL, if it is safe to share,</li>
+        <li>what you expected and what happened,</li>
+        <li>a screenshot of the playback bar, if possible.</li>
+      </ul>
+      <p>Read Along is a small, independent project. Every message is read.</p>
+
+      <div class="page-nav">
+        <a href="index.html">← Back to home</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="changelog.html">Changelog</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/icon-128.png" width="30" height="30" alt="">
+          Read Along
+        </a>
+        <p>A local-first read-aloud extension for the pages you actually want to read.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#screenshots">Screenshots</a>
+        <a href="index.html#how">How it works</a>
+        <a href="changelog.html">Changelog</a>
+      </div>
+      <div class="footer-col">
+        <h3>Support</h3>
+        <a href="support.html">Help &amp; FAQ</a>
+        <a href="support.html#shortcuts">Keyboard shortcuts</a>
+        <a href="support.html#troubleshooting">Troubleshooting</a>
+        <a href="mailto:nayanbhut989@gmail.com">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="index.html#availability">Availability</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Read Along. Made for Chrome, Brave, and Edge.</span>
+      <span>No cookies, no analytics, no tracking.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
