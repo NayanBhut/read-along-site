@@ -69,9 +69,8 @@ Update the canonical, Open Graph, sitemap, and robots URLs when that happens.
 - The privacy policy on `privacy.html` must match what the extension actually
   does. If the extension starts using cloud voices, update the policy **before**
   shipping that version.
-- Version 1.1.0 is live on the Chrome Web Store. Version 1.1.1 is in review. The
-  store links are in place; verify the direct listing URL after 1.1.1 is published,
-  then update the “in review” notes on the home, support, and changelog pages.
+- Version 1.1.1 is live on the Chrome Web Store. The store link is on every page;
+  re-check the direct listing URL when a new version ships.
 - Screenshots and the icon are copied from the extension repository’s `store/`
   folder. Regenerate them there when the UI changes, then copy them here.
 - Do not add analytics, tracking pixels, external fonts, or third-party scripts.
